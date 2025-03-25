@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "@/styles/testimonials.css";
-import orbitBg from "@/assets/testimonial-section/orbit.png";
-import memoji1 from "@/assets/testimonial-section/memoji-1.png";
-import memoji2 from "@/assets/testimonial-section/memoji-2.png";
-import memoji3 from "@/assets/testimonial-section/memoji-3.png";
-import memoji4 from "@/assets/testimonial-section/memoji-4.png";
-import profileImg from "@/assets/testimonial-section/profile.png";
+import "../styles/testimonials.css";
+import orbitBg from "../assets/testimonial-section/orbit.png";
+import memoji1 from "../assets/testimonial-section/memoji-1.png";
+import memoji2 from "../assets/testimonial-section/memoji-2.png";
+import memoji3 from "../assets/testimonial-section/memoji-3.png";
+import memoji4 from "../assets/testimonial-section/memoji-4.png";
+import profileImg from "../assets/testimonial-section/profile.png";
 
 const Testimonials = () => {
   return (
