@@ -16,12 +16,12 @@ const Newsletter = () => {
         <Row className="justify-content-center">
           <Col md={8}>
             <div className="d-flex newsletter-form-container">
-              <div className="newsletter-input-wrapper">
+              <div className="newsletter-input-wrapper position-relative">
                 <img src={mailIcon} alt="Email icon" className="newsletter-icon" />
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
-                  className="newsletter-input"
+                  className="newsletter-input ps-5"
                 />
               </div>
               <Button className="newsletter-submit-btn">Submit</Button>
