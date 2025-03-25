@@ -17,12 +17,12 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: var(--color-azul);
+  background-color: var(--color-azul-claro-2);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 0;
-  color: white;
+  color: var(--color-boton);
 }
 
 .icon-image {
@@ -55,4 +55,4 @@
   .icon-container {
     margin: 0 auto 1rem auto;
   }
-} 
+}
