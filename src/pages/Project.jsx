@@ -1,10 +1,15 @@
 import React from "react";
+import ProjectHero from "@/components/ProjectHero";
+import ProjectsRow from "@/components/ProjectsRow";
+import Newsletter from "@/components/Newsletter";
 
 const Project = () => {
   return (
     <div>
-      <h2>Projects</h2>
-      {/* Aun me falta acabarlo */}
+      <ProjectHero />
+      <ProjectsRow variant={false} />
+      <Newsletter />
+      <br />
     </div>
   );
 };
