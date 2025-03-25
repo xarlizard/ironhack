@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import demoResponse from "../hooks/demoResponse.json";
-import projectImage from "@/assets/projects-section/1.jpg";
+import projectImage from "/assets/projects-section/1.jpg";
 import "@/styles/projectHero.css";
 
 const ProjectHero = () => {
