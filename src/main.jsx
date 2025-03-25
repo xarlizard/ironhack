@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import { AppProvider } from "./context/AppContext";
+import { AppProvider } from "@/context/AppContext";
 //Nuestro layout principal (solo hay uno)
-import Layout from "./routes/Layout";
+import Layout from "@/routes/Layout";
 //Nuestras paginas
-import Home from "./pages/Home";
-import Project from "./pages/Project";
-import Contact from "./pages/Contact";
+import Home from "@/pages/Home";
+import Project from "@/pages/Project";
+import Contact from "@/pages/Contact";
 //Nuestros estilos
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/index.css";
+import "@/styles/index.css";
 
 const router = createBrowserRouter([
   {
