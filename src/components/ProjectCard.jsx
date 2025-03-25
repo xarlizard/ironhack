@@ -2,15 +2,15 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "../styles/projectCard.css";
 
-const ProjectCard = ({ index, projectData }) => {
+const ProjectCard = ({ index, variant = true, projectData }) => {
   // Determine the image source - use projectData.image if available, otherwise use local file
-  const imageSrc = projectData.image || `/src/assets/projects-section/${index + 1}.jpg`;
-  
+  const imageSrc = `/src/assets/projects-section/${variant ? index + 1 : index + 3}.jpg`;
+
   return (
     <Card className="project-card">
       <div className="image-container">
-        <Card.Img 
-          variant="top" 
+        <Card.Img
+          variant="top"
           src={imageSrc}
           alt={projectData.name}
           className="card-image"
@@ -20,10 +20,10 @@ const ProjectCard = ({ index, projectData }) => {
         <Card.Title className="mb-3">{projectData.name}</Card.Title>
         <Card.Text className="mb-3">{projectData.description}</Card.Text>
         <div className="text-start">
-          <Button 
-            variant="link" 
+          <Button
+            variant="link"
             className="p-0"
-            style={{ color: 'var(--color-boton)', textDecoration: 'none' }}
+            style={{ color: "var(--color-boton)", textDecoration: "none" }}
           >
             Learn More
           </Button>
@@ -33,4 +33,4 @@ const ProjectCard = ({ index, projectData }) => {
   );
 };
 
-export default ProjectCard; 
+export default ProjectCard;
