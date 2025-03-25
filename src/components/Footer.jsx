@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import circleLogo from "../assets/logos/circle.svg";
+import circleLogo from "/assets/logos/circle.svg";
 import "@/styles/footer.css";
 
 const Footer = () => {

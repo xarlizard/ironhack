@@ -3,8 +3,8 @@ import { Card, Button } from "react-bootstrap";
 import "../styles/projectCard.css";
 
 const ProjectCard = ({ index, variant = true, projectData }) => {
-  // Determine the image source - use projectData.image if available, otherwise use local file
-  const imageSrc = `/src/assets/projects-section/${variant ? index + 1 : index + 3}.jpg`;
+  // Updated image path to use assets from public folder
+  const imageSrc = `/assets/projects-section/${variant ? index + 1 : index + 3}.jpg`;
 
   return (
     <Card className="project-card">

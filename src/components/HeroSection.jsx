@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import heroImage from "../assets/hero-section/hero-image.png";
-import card1 from "../assets/hero-section/card-1.png";
-import card2 from "../assets/hero-section/card-2.png";
-import "../styles/heroSection.css";
+import heroImage from "/assets/hero-section/hero-image.png";
+import card1 from "/assets/hero-section/card-1.png";
+import card2 from "/assets/hero-section/card-2.png";
+import "@/styles/heroSection.css";
 
 const HeroSection = () => {
   return (
@@ -28,7 +28,7 @@ const HeroSection = () => {
                   backgroundColor: "var(--color-boton)",
                   border: "none",
                   borderRadius: "0",
-                  padding: '8px 20px'
+                  padding: "8px 20px",
                 }}
               >
                 Get in touch
@@ -40,7 +40,7 @@ const HeroSection = () => {
                   backgroundColor: "transparent",
                   border: "none",
                   borderRadius: "0",
-                  padding: '8px 20px'
+                  padding: "8px 20px",
                 }}
               >
                 See our work

@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router";
-import "../styles/header.css";
-import circleLogo from "../assets/logos/circle.svg";
+import "@/styles/header.css";
+import circleLogo from "/assets/logos/circle.svg";
 
 const Header = () => {
   const navigate = useNavigate();

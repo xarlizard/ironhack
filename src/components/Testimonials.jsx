@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "../styles/testimonials.css";
-import orbitBg from "../assets/testimonial-section/orbit.png";
-import memoji1 from "../assets/testimonial-section/memoji-1.png";
-import memoji2 from "../assets/testimonial-section/memoji-2.png";
-import memoji3 from "../assets/testimonial-section/memoji-3.png";
-import memoji4 from "../assets/testimonial-section/memoji-4.png";
-import profileImg from "../assets/testimonial-section/profile.png";
+import "@/styles/testimonials.css";
+import orbitBg from "/assets/testimonial-section/orbit.png";
+import memoji1 from "/assets/testimonial-section/memoji-1.png";
+import memoji2 from "/assets/testimonial-section/memoji-2.png";
+import memoji3 from "/assets/testimonial-section/memoji-3.png";
+import memoji4 from "/assets/testimonial-section/memoji-4.png";
+import profileImg from "/assets/testimonial-section/profile.png";
 
 const Testimonials = () => {
   return (
@@ -35,11 +35,14 @@ const Testimonials = () => {
           {/* Testimonial Text */}
           <Row className="justify-content-center text-center">
             <Col md={8}>
-              <h1 className="text-white mb-4">Hear What Our Clients Have to Say</h1>
+              <h1 className="text-white mb-4">
+                Hear What Our Clients Have to Say
+              </h1>
               <p className="intro-text-medium testimonial-quote mb-5">
-                "Circle helped us through every stage of our startup. We really enjoyed working with you."
+                "Circle helped us through every stage of our startup. We really
+                enjoyed working with you."
               </p>
-              
+
               {/* Profile Section */}
               <div className="d-flex align-items-center justify-content-center">
                 <div className="profile-image me-3">
@@ -58,4 +61,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials; 
+export default Testimonials;
