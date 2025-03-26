@@ -10,7 +10,6 @@ const Contact = () => {
         <h1 className="mb-5">Contact us</h1>
         <ContactForm />
       </Container>
-      <Newsletter />
       <br />
     </div>
   );
