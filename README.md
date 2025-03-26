@@ -76,4 +76,4 @@ La mayoria de ficheros se encuentran descomprimidos en `/public/assets` siendo a
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT
+Este proyecto está licenciado bajo la [`Licencia MIT`](./LICENSE)
