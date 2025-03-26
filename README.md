@@ -27,7 +27,8 @@ http://localhost:5173
 ### Componentes Generales
 
 - [`Header.jsx`](./src/components/Header.jsx) - Encabezado de navegación con menú responsive
-- [`Footer.jsx`](./src/components/Footer.jsx) - Pie de página con enlaces e información de contacto
+- [`Footer.jsx`](./src/components/Footer.jsx) - Pie de pagina con enlaces e información de contacto
+- [`ButtonLearnMore.jsx`](./src/components/ButtonLearnMore.jsx) - Botón que se repite en diferentes componentes
 
 ### Componentes de la Pagina Home
 
@@ -59,16 +60,19 @@ http://localhost:5173
 
 ## Recursos del Proyecto
 
-Todos los recursos están almacenados en el directorio `/public/assets`:
+Todos los recursos propporcionados para empezar el proyecto están almacenados en el directorio `/google-drive-files`, siendo `mid-term-project` el fichero Figma que Ironhack presenta (archivos comprimidos a .zip para optimizar recursos):
 
 ```
-public/assets/
+google-drive-files/
 ├── hero-section/
 ├── logos/
 ├── newsletter/
 ├── projects-section/
-└── testimonial-section/
+├── testimonial-section/
+└── mid-term-project/
 ```
+
+La mayoria de ficheros se encuentran descomprimidos en `/public/assets` siendo asi como el resto de la aplicacion accede a ellos.
 
 ## Licencia
 
