@@ -20,8 +20,9 @@ http://localhost:5173
 
 ### Páginas
 
-- [`Home.jsx`](./src/pages/Home.jsx) - Página principal
-- [`Project.jsx`](./src/pages/Project.jsx) - Página de detalles de proyecto
+- [`Home.jsx`](./src/pages/Home.jsx) - Pagina principal
+- [`Project.jsx`](./src/pages/Project.jsx) - Pagina de detalles de proyecto
+- [`Contact.jsx`](./src/pages/Contact.jsx) - Pagina de contacto
 
 ### Componentes Generales
 
@@ -43,6 +44,10 @@ http://localhost:5173
 - [`ProjectHero.jsx`](./src/components/ProjectHero.jsx) - Sección principal de detalles del proyecto
 - [`ProjectsRow.jsx`](./src/components/ProjectsRow.jsx) - Sección de proyectos relacionados (variant: false)
 - [`Newsletter.jsx`](./src/components/Newsletter.jsx) - Formulario de suscripción al boletín
+
+### Componentes de la Pagina de Contacto
+
+- [`ContactForm.jsx`](./src/components/ContactForm.jsx) - Formulario de contacto
 
 ## Stack Tecnológico
 
