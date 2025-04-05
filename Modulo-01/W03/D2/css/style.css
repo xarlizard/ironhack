@@ -118,16 +118,17 @@ section hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
-  background-color: #91f1eb;
-  padding: 20px;
-  border-radius: 5px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  gap: 10px;
 }
 
 .big-card img {
   width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .big-card h4 {
@@ -142,19 +143,38 @@ section hr {
   text-align: center;
 }
 
+.little-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .little-card p {
   font-size: 17px;
 }
 
+.big-card, .little-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
 #characters .big-card {
-  background-color: #ffe5c6;
-  padding-top: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 #characters .big-card img {
-  height: 350px;
-  width: auto;
-  transition: all 0.75s;
+  height: 180px;
+  transition: transform 0.3s ease;
+}
+
+#characters .big-card img:hover {
+  transform: scale(1.05);
 }
 
 #characters .sakura img:hover {
@@ -179,6 +199,28 @@ section hr {
 
 #characters .azuki img:hover {
   opacity: 0.5;
+}
+
+#characters article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Optional: Add hover effect */
+.big-card img:hover,
+.little-card img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 footer {
