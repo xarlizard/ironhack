@@ -1,6 +1,6 @@
 # INFO
 
-Primer proyecto de la semana 6 en el curso de ironhack
+Segundo proyecto de la semana 6 en el curso de ironhack
 
 ## Tareas
 
