@@ -1,6 +1,6 @@
 # INFO
 
-Segundo proyecto de la semana 2 en el curso de ironhack
+Tercer proyecto de la semana 2 en el curso de ironhack
 
 ## Tareas
 
